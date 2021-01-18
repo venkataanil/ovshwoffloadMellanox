@@ -1,0 +1,11 @@
+parameter_defaults:
+    ControllerCount: 3
+    OvercloudControllerFlavor: baremetal
+    ComputeSriovOffloadCount: 1
+    OvercloudComputeSriovOffloadFlavor: compute
+    IronicCleaningDiskErase: metadata
+    ComputeSriovMellanoxCount: 1
+    OvercloudComputeSriovMellanoxFlavor: sriovMellanox
+    ComputeSriovIntelCount: 1
+    OvercloudComputeSriovIntelFlavor: sriovIntel
+    

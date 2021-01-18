@@ -1,0 +1,143 @@
+[root@cmpt-offload-0 ~]# ethtool -i ens1f0
+driver: mlx5e_rep
+version: 4.18.0-193.19.1.el8_2.x86_64
+firmware-version: 16.28.2006 (MT_0000000183)
+expansion-rom-version: 
+bus-info: 0000:12:00.0
+supports-statistics: yes
+supports-test: no
+supports-eeprom-access: no
+supports-register-dump: no
+supports-priv-flags: no
+
+[root@cmpt-offload-0 ~]# ethtool -i ens1f1 
+driver: mlx5e_rep
+version: 4.18.0-193.19.1.el8_2.x86_64
+firmware-version: 16.28.2006 (MT_0000000183)
+expansion-rom-version: 
+bus-info: 0000:12:00.1
+supports-statistics: yes
+supports-test: no
+supports-eeprom-access: no
+supports-register-dump: no
+supports-priv-flags: no
+
+[root@cmpt-offload-0 ~]# ethtool -k ens1f0
+Features for ens1f0:
+rx-checksumming: on
+tx-checksumming: on
+	tx-checksum-ipv4: on
+	tx-checksum-ip-generic: off [fixed]
+	tx-checksum-ipv6: on
+	tx-checksum-fcoe-crc: off [fixed]
+	tx-checksum-sctp: off [fixed]
+scatter-gather: on
+	tx-scatter-gather: on
+	tx-scatter-gather-fraglist: off [fixed]
+tcp-segmentation-offload: on
+	tx-tcp-segmentation: on
+	tx-tcp-ecn-segmentation: off [fixed]
+	tx-tcp-mangleid-segmentation: off
+	tx-tcp6-segmentation: on
+generic-segmentation-offload: on
+generic-receive-offload: on
+large-receive-offload: off [fixed]
+rx-vlan-offload: on
+tx-vlan-offload: off [fixed]
+ntuple-filters: off [fixed]
+receive-hashing: off [fixed]
+highdma: off [fixed]
+rx-vlan-filter: off [fixed]
+vlan-challenged: off [fixed]
+tx-lockless: off [fixed]
+netns-local: on [fixed]
+tx-gso-robust: off [fixed]
+tx-fcoe-segmentation: off [fixed]
+tx-gre-segmentation: off [fixed]
+tx-gre-csum-segmentation: off [fixed]
+tx-ipxip4-segmentation: off [fixed]
+tx-ipxip6-segmentation: off [fixed]
+tx-udp_tnl-segmentation: off [fixed]
+tx-udp_tnl-csum-segmentation: off [fixed]
+tx-gso-partial: off [fixed]
+tx-sctp-segmentation: off [fixed]
+tx-esp-segmentation: off [fixed]
+tx-udp-segmentation: off [fixed]
+tls-hw-rx-offload: off [fixed]
+fcoe-mtu: off [fixed]
+tx-nocache-copy: off
+loopback: off [fixed]
+rx-fcs: off [fixed]
+rx-all: off [fixed]
+tx-vlan-stag-hw-insert: off [fixed]
+rx-vlan-stag-hw-parse: off [fixed]
+rx-vlan-stag-filter: off [fixed]
+l2-fwd-offload: off [fixed]
+hw-tc-offload: on
+esp-hw-offload: off [fixed]
+esp-tx-csum-hw-offload: off [fixed]
+rx-udp_tunnel-port-offload: on
+tls-hw-tx-offload: off [fixed]
+rx-gro-hw: off [fixed]
+tls-hw-record: off [fixed]
+
+[root@cmpt-offload-0 ~]# ethtool -k ens1f1
+Features for ens1f1:
+rx-checksumming: on
+tx-checksumming: on
+	tx-checksum-ipv4: on
+	tx-checksum-ip-generic: off [fixed]
+	tx-checksum-ipv6: on
+	tx-checksum-fcoe-crc: off [fixed]
+	tx-checksum-sctp: off [fixed]
+scatter-gather: on
+	tx-scatter-gather: on
+	tx-scatter-gather-fraglist: off [fixed]
+tcp-segmentation-offload: on
+	tx-tcp-segmentation: on
+	tx-tcp-ecn-segmentation: off [fixed]
+	tx-tcp-mangleid-segmentation: off
+	tx-tcp6-segmentation: on
+generic-segmentation-offload: on
+generic-receive-offload: on
+large-receive-offload: off [fixed]
+rx-vlan-offload: on
+tx-vlan-offload: off [fixed]
+ntuple-filters: off [fixed]
+receive-hashing: off [fixed]
+highdma: off [fixed]
+rx-vlan-filter: off [fixed]
+vlan-challenged: off [fixed]
+tx-lockless: off [fixed]
+netns-local: on [fixed]
+tx-gso-robust: off [fixed]
+tx-fcoe-segmentation: off [fixed]
+tx-gre-segmentation: off [fixed]
+tx-gre-csum-segmentation: off [fixed]
+tx-ipxip4-segmentation: off [fixed]
+tx-ipxip6-segmentation: off [fixed]
+tx-udp_tnl-segmentation: off [fixed]
+tx-udp_tnl-csum-segmentation: off [fixed]
+tx-gso-partial: off [fixed]
+tx-sctp-segmentation: off [fixed]
+tx-esp-segmentation: off [fixed]
+tx-udp-segmentation: off [fixed]
+tls-hw-rx-offload: off [fixed]
+fcoe-mtu: off [fixed]
+tx-nocache-copy: off
+loopback: off [fixed]
+rx-fcs: off [fixed]
+rx-all: off [fixed]
+tx-vlan-stag-hw-insert: off [fixed]
+rx-vlan-stag-hw-parse: off [fixed]
+rx-vlan-stag-filter: off [fixed]
+l2-fwd-offload: off [fixed]
+hw-tc-offload: on
+esp-hw-offload: off [fixed]
+esp-tx-csum-hw-offload: off [fixed]
+rx-udp_tunnel-port-offload: on
+tls-hw-tx-offload: off [fixed]
+rx-gro-hw: off [fixed]
+tls-hw-record: off [fixed]
+
+

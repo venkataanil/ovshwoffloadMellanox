@@ -1,0 +1,72 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: eno1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN mode DEFAULT group default qlen 1000
+    link/ether 94:40:c9:31:73:60 brd ff:ff:ff:ff:ff:ff
+3: eno2: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN mode DEFAULT group default qlen 1000
+    link/ether 94:40:c9:31:73:61 brd ff:ff:ff:ff:ff:ff
+4: eno5np0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether f4:03:43:d7:6a:50 brd ff:ff:ff:ff:ff:ff
+5: eno3: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN mode DEFAULT group default qlen 1000
+    link/ether 94:40:c9:31:73:62 brd ff:ff:ff:ff:ff:ff
+6: ens2f0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq master ovs-system state UP mode DEFAULT group default qlen 1000
+    link/ether 40:a6:b7:2a:e8:7c brd ff:ff:ff:ff:ff:ff
+7: eno6np1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether f4:03:43:d7:6a:58 brd ff:ff:ff:ff:ff:ff
+8: eno4: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN mode DEFAULT group default qlen 1000
+    link/ether 94:40:c9:31:73:63 brd ff:ff:ff:ff:ff:ff
+9: ens2f1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq master ovs-system state UP mode DEFAULT group default qlen 1000
+    link/ether 40:a6:b7:2a:e8:7d brd ff:ff:ff:ff:ff:ff
+12: enp1s0f4u4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN mode DEFAULT group default qlen 1000
+    link/ether 5e:1c:aa:01:94:cb brd ff:ff:ff:ff:ff:ff
+16: ens1f0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq master ovs-system state UP mode DEFAULT group default qlen 1000
+    link/ether 0c:42:a1:51:3b:fc brd ff:ff:ff:ff:ff:ff
+    vf 0     link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff, spoof checking off, link-state disable, trust off, query_rss off
+    vf 1     link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff, spoof checking off, link-state disable, trust off, query_rss off
+    vf 2     link/ether fa:16:3e:7c:90:7a brd ff:ff:ff:ff:ff:ff, spoof checking off, link-state disable, trust off, query_rss off
+17: ens1f0_0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether 36:ee:36:40:39:18 brd ff:ff:ff:ff:ff:ff
+18: ens1f0_1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether 56:12:f0:61:4b:bc brd ff:ff:ff:ff:ff:ff
+19: ens1f0_2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq master ovs-system state UP mode DEFAULT group default qlen 1000
+    link/ether 0a:4b:48:60:30:ef brd ff:ff:ff:ff:ff:ff
+23: ens1f1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq master ovs-system state UP mode DEFAULT group default qlen 1000
+    link/ether 0c:42:a1:51:3b:fd brd ff:ff:ff:ff:ff:ff
+    vf 0     link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff, spoof checking off, link-state disable, trust off, query_rss off
+    vf 1     link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff, spoof checking off, link-state disable, trust off, query_rss off
+    vf 2     link/ether fa:16:3e:ce:f9:fe brd ff:ff:ff:ff:ff:ff, spoof checking off, link-state disable, trust off, query_rss off
+24: ens1f1_0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether ba:bb:01:87:91:58 brd ff:ff:ff:ff:ff:ff
+25: ens1f1_1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether 0e:ee:d7:8f:5d:25 brd ff:ff:ff:ff:ff:ff
+26: ens1f1_2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq master ovs-system state UP mode DEFAULT group default qlen 1000
+    link/ether 1e:fa:24:7f:a1:9e brd ff:ff:ff:ff:ff:ff
+27: ovs-system: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether b2:27:38:96:45:32 brd ff:ff:ff:ff:ff:ff
+30: br-int: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether ce:61:ff:21:93:44 brd ff:ff:ff:ff:ff:ff
+31: br-access: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/ether 40:a6:b7:2a:e8:7c brd ff:ff:ff:ff:ff:ff
+32: br-ex: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/ether 40:a6:b7:2a:e8:7d brd ff:ff:ff:ff:ff:ff
+33: br-offload1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/ether 0c:42:a1:51:3b:fc brd ff:ff:ff:ff:ff:ff
+34: br-offload2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/ether 0c:42:a1:51:3b:fd brd ff:ff:ff:ff:ff:ff
+35: vlan301: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/ether 4e:33:50:1d:93:14 brd ff:ff:ff:ff:ff:ff
+36: vlan302: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/ether b6:4a:f9:f8:c9:b2 brd ff:ff:ff:ff:ff:ff
+37: vlan304: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/ether 4a:8d:e5:3b:b7:a1 brd ff:ff:ff:ff:ff:ff
+38: br-tun: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether 3a:be:21:c3:12:40 brd ff:ff:ff:ff:ff:ff
+39: vxlan_sys_4789: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 65000 qdisc noqueue master ovs-system state UNKNOWN mode DEFAULT group default qlen 1000
+    link/ether 66:6c:98:f9:97:08 brd ff:ff:ff:ff:ff:ff
+40: qbr3d82f76b-1f: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DEFAULT group default qlen 1000
+    link/ether 72:b5:b7:cc:96:2f brd ff:ff:ff:ff:ff:ff
+41: qvo3d82f76b-1f@qvb3d82f76b-1f: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master ovs-system state UP mode DEFAULT group default qlen 1000
+    link/ether 22:ae:84:1d:1b:44 brd ff:ff:ff:ff:ff:ff
+42: qvb3d82f76b-1f@qvo3d82f76b-1f: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master qbr3d82f76b-1f state UP mode DEFAULT group default qlen 1000
+    link/ether 72:b5:b7:cc:96:2f brd ff:ff:ff:ff:ff:ff
+43: tap3d82f76b-1f: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel master qbr3d82f76b-1f state UNKNOWN mode DEFAULT group default qlen 1000
+    link/ether fe:16:3e:77:1c:03 brd ff:ff:ff:ff:ff:ff
